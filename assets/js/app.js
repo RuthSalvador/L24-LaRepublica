@@ -24,10 +24,4 @@ window.addEventListener('load', function(){
     }
   }
 
-
-
-
-
-
-
 })
