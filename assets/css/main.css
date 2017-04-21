@@ -39,7 +39,7 @@
 }
 
 .odebrecht {
-    width: 425px;
+    width: 394px;
     height: 250px;
     background-position: -580px -5px;
     position: relative;
@@ -51,6 +51,8 @@
     width: 53px;
     height: 84px;
     background-position: -580px -265px;
+    position: relative;
+    left: 100px;
 }
 
 /*** contenido **/
@@ -176,12 +178,33 @@ h2 {
 }
 
 h3 {
-font-size: 0.9rem;
+  font-size: 0.9rem;
   margin: 10px 10px;
-
-
 }
+
 .menor {
   width: 46%;
   display: inline-block;
+}
+
+h4 {
+  color: red;
+  text-transform: uppercase;
+}
+
+.red {
+  background-color: red;
+  width: 300px;
+}
+
+.frase {
+  position: relative;
+  bottom: 40px;
+  font-size: 1.1rem;
+
+}
+
+
+h5 {
+  background-color: #1362a7;
 }
