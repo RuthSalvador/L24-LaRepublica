@@ -1,0 +1,48 @@
+/****** Sprite *****/
+.sprite {
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.alcalde-chilca {
+    width: 243px;
+    height: 270px;
+    background-position: -5px -5px;
+}
+
+.alejandra-aramayo {
+    width: 312px;
+    height: 165px;
+    background-position: -258px -5px;
+}
+
+.anuncio {
+    width: 310px;
+    height: 86px;
+    background-position: -258px -180px;
+}
+
+.corea-del-norte {
+    width: 312px;
+    height: 165px;
+    background-position: -258px -276px;
+}
+
+.logo {
+    width: 281px;
+    height: 49px;
+    background-position: -5px -451px;
+}
+
+.odebrecht {
+    width: 425px;
+    height: 250px;
+    background-position: -580px -5px;
+}
+
+.hombre {
+    width: 53px;
+    height: 84px;
+    background-position: -580px -265px;
+}
