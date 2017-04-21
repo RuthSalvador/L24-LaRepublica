@@ -3,6 +3,7 @@
     background-image: url(../img/sprite.png);
     background-repeat: no-repeat;
     display: inline-block;
+    margin: 0;
 }
 
 .alcalde-chilca {
@@ -33,6 +34,7 @@
     width: 281px;
     height: 49px;
     background-position: -5px -451px;
+    margin: 10px 0px;
 }
 
 .odebrecht {
@@ -47,22 +49,31 @@
     background-position: -580px -265px;
 }
 
+/*** contenido **/
 body {
   margin: 0;
   color: #ffffff;
   background-color: #EBEBEB;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fondo{
+  background-color: #E00109;
 }
 
 .encabezado {
-  background-color: #E00109;
+  margin: 0px 220px;
 }
 
 .logo, .redes-sociales, .search {
   display: inline-block;
 }
 
-.redes-sociales {
-
+.redes-sociales ul {
+  margin: 0;
+  position: absolute;
+  top: 20px;
+  left: 600px;
 }
 
 .redes-sociales ul li {
@@ -74,7 +85,6 @@ body {
   border-radius: 50px;
   text-align: center;
   display: inline-block;
-
 }
 
 .redes-sociales ul li span {
@@ -83,39 +93,48 @@ body {
 }
 
 .search {
+  box-sizing: border-box;
   border: 1px solid #ffffff;
   border-radius: 15px;
   padding: 5px;
+  position: absolute;
+  top: 20px;
+  right: 220px;
+}
+
+.bajo-fondo {
+  background-color: #5c5c66;
 }
 
 #subtitulos ul{
-  background-color: #5c5c66;
-  margin: 0;
-
+  background-color: #4d4d59;
+  margin: 0px 220px;
+padding: 5px 20px;
+font-size: 0.9rem;
 }
 
 #subtitulos ul li {
-  background-color: #4d4d59;
+
   text-transform: uppercase;
   list-style-type: none;
   text-align: center;
   display: inline-block;
-  padding: 5px;
+  padding: 5px 8px;
 }
 
 .all {
   width: 1000px;
   margin: 0px 220px;
   display: inline-flex;
+
 }
 
 #sec-principal {
   width: 70%;
-  }
-  
+}
+
 .noticia {
   background-color: #333340;
-
 }
 
 h2, .icon-gris {
@@ -123,5 +142,5 @@ h2, .icon-gris {
 }
 
 h2 {
-  width: 50%;
+  width: 30%;
 }
