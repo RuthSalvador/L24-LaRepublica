@@ -2,7 +2,7 @@
 .sprite {
     background-image: url(../img/sprite.png);
     background-repeat: no-repeat;
-    display: block;
+    display: inline-block;
 }
 
 .alcalde-chilca {
@@ -45,4 +45,83 @@
     width: 53px;
     height: 84px;
     background-position: -580px -265px;
+}
+
+body {
+  margin: 0;
+  color: #ffffff;
+  background-color: #EBEBEB;
+}
+
+.encabezado {
+  background-color: #E00109;
+}
+
+.logo, .redes-sociales, .search {
+  display: inline-block;
+}
+
+.redes-sociales {
+
+}
+
+.redes-sociales ul li {
+  background-color: #ffffff;
+  color: #E00109;
+  list-style-type: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  text-align: center;
+  display: inline-block;
+
+}
+
+.redes-sociales ul li span {
+  position: relative;
+  top: 7px;
+}
+
+.search {
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+#subtitulos ul{
+  background-color: #5c5c66;
+  margin: 0;
+
+}
+
+#subtitulos ul li {
+  background-color: #4d4d59;
+  text-transform: uppercase;
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+  padding: 5px;
+}
+
+.all {
+  width: 1000px;
+  margin: 0px 220px;
+  display: inline-flex;
+}
+
+#sec-principal {
+  width: 70%;
+  }
+  
+.noticia {
+  background-color: #333340;
+
+}
+
+h2, .icon-gris {
+  display: inline-block;
+}
+
+h2 {
+  width: 50%;
 }
